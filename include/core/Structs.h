@@ -41,9 +41,9 @@ struct Color {
 struct Food { 
     Vector2D position; 
     float energyValue; 
-    Color color; 
+    Color color;
     // Constructeur 
-    Food(Vector2D pos, float energy = 25.0f)  
+     Food(Vector2D pos, float energy = 25.0f) 
         : position(pos), energyValue(energy), color(Color::Green()) {} 
 }; 
 } // namespace Core 
